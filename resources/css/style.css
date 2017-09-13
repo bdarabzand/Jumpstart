@@ -115,13 +115,102 @@ img {
 }
 
 @media only screen and (max-width: 770px) {
-    .jumbotron h1 {
+ .jumbotron h1 {
         font-size: 5.7rem;
     }
 }
 
 @media only screen and (max-width: 550px) {
-    .jumbotron h1 {
+ .jumbotron h1 {
         font-size: 4rem;
     }
 }
+
+/* Featured section */
+
+
+#f001{
+    margin: -5rem 0 2.2rem 0;
+}
+
+#f002{
+   color: #399bd1;
+}
+
+#f002 p{
+   line-height: 1.4rem;
+   color:rgba(0, 0, 0, 0.7);
+}
+
+
+/* Project Image Containers */
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    opacity: 0.7;
+    transition: transform .5s,
+                            opacity .5s;
+    transition: transform .5s,
+                            opacity .5s;
+}
+
+.image-container img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/* Featured Project section */
+
+.featured-project {
+    margin-top: -7rem;
+}
+
+.featured-project .image-container {
+    height: 19rem;
+    margin-top: 20px; /* To match bootstrap header margins */
+}
+
+.categories h3 {
+    color: #399bd1;
+}
+
+.categories ul {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Projects section */
+
+.project {
+    margin-bottom: 5.85rem;
+}
+
+.project .image-container {
+    height: 13.5rem;
+    overflow: hidden;
+}
+
+/* Help section */
+
+.help {
+    padding: 5.2rem 0;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.help strong {
+    display: inline-block;
+    margin-bottom: 1.4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.help p {
+    max-width: 42rem;
+    margin: auto;
+}
+
