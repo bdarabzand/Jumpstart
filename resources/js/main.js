@@ -1,6 +1,3 @@
-let myElement = document.getElementById = ("n001"). click =>{
-    prompt(<img src="resources/images/bina.jpg" width="179" height="228" alt="">, 'This is me!!');
-};
 
 $(document).ready(function(){
     $('.carousel').slick({
